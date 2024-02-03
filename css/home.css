@@ -154,7 +154,7 @@ height: auto;
 .what-we-offer.custom-bg {
   background-color: #5e1e1e; 
   color: #fff;
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
  
 }
@@ -859,8 +859,8 @@ font-weight: lighter;
 .what-we-offer p::before {
   content: '\2022'; /* Unicode character for a bullet point */
   display: inline-block;
-  width: 1.5em; /* Adjust the width for spacing */
-  margin-left: 3em; /* Adjust the margin for proper alignment */
+  /* width: 1.5em; Adjust the width for spacing */
+  /* margin-left: 3em; Adjust the margin for proper alignment */
   color:white; /* Set bullet color */
   font-size: xx-large;
 }
@@ -921,6 +921,7 @@ font-weight: lighter;
   .ptag,
   .ptag2 {
     font-size: 18px;
+    text-align: center;
   }
 
   .image-wrapper img {
