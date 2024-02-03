@@ -39,7 +39,7 @@ body {
 }
 
   .logo-container {
-    display: flex;
+    /* display: flex; */
     align-items: center;
   }
   
@@ -61,7 +61,7 @@ body {
   
   .contact-info {
     color: orange;
-    margin-left: 400px;
+    margin: auto;
     font-size: 18px;
   }
   
@@ -929,3 +929,4 @@ font-weight: lighter;
     margin-bottom: 10px;
   }
 }
+
