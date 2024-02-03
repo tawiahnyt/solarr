@@ -874,3 +874,58 @@ font-weight: lighter;
 font-size: 25px;
 font-weight: lighter;
 }
+
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-bar li {
+    margin: 10px 0;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .contact-info {
+    margin: 20px 0;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-media1 {
+    margin-left: 0;
+  }
+
+  .content-under-slider {
+    padding: 50px;
+  }
+
+  .what-we-offer h2 {
+    font-size: 30px;
+  }
+
+  .what-we-offer h1,
+  .what-we-offer p,
+  .ptag,
+  .ptag2 {
+    font-size: 18px;
+  }
+
+  .image-wrapper img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+}
